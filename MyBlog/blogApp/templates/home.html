@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>`Blog Posts`</h1>
+
+<ul>
+{% for article in articles %}
+    <li><hr><a href="{% url 'article-detail' article.id %}" class="btn btn-outline-dark">{{ article.title }} | <small>by {{ article.author }}</small></a><br>
+        {{ article.author.email }}<br>
+    {{ article.content}}</li>
+{% endfor %}
+</ul>
+
+{% endblock %}

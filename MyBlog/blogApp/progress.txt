@@ -1,0 +1,32 @@
+*DRF
+- Serializers : serializer fields, relations
+- view
+- generic views
+- api_view
+- viewsets, action, simple routers
+- default authentications
+- permissions
+- authentication
+- filters
+- validators
+- throttling
+- mixins
+
+
+*Django
+- models
+- managers
+- views: function, class bases, generic class based
+- url configuration : path, re_path
+- queryset : filter, exclude, aggregation functions, Q, F, field lookups
+- template rendering
+- decorators
+- forms, model forms,
+
+*Docker
+- docker cli commands:  run, container, image, networking, port, pull, modes(-i, -t, -it, etc.)
+- env variable
+
+*celery
+- basic configuration, basic understanding of brokers
+- basic concepts of redis, rabbitmq
